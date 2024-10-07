@@ -4,6 +4,12 @@
     {
       "match": "manager = 'dockerfile'",
       "additionalBranchPrefix": "docker-"
+    }, {
+      "match": "deprecationMessage = '*'",
+      "labels": ["deprecated"]
+    }, {
+      "match": "branchName = '*-vulnerability'",
+      "labels": ["security"]
     }
   ]
 }
