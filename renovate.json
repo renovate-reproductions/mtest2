@@ -2,7 +2,7 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
-      "match": "manager = 'docker'",
+      "match": "manager = 'dockerfile'",
       "additionalBranchPrefix": "docker-"
     }
   ]
