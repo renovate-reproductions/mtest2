@@ -1,2 +1,2 @@
-FROM node:18.10-alpine
+FROM node:22.9-alpine
 RUN something
