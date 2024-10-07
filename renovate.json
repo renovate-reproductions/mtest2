@@ -6,14 +6,14 @@
       "additionalBranchPrefix": "docker-"
     }, {
       "matchJsonata": "$exists(deprecationMessage)",
-      "labels": ["deprecated", "important"]
+      "addLabels": ["deprecated", "important"]
     }, {
       "matchJsonata": "$exists(vulnerabilityFixVersion)",
-      "labels": ["security"]
+      "addLabels": ["security"]
     },
     {
       "matchJsonata": "$exists(newMajor)",
-      "labels": ["major:{{newMajor}}"]
+      "addLabels": ["major:{{newMajor}}"]
     }
   ]
 }
