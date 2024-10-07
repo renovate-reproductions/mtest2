@@ -7,6 +7,9 @@
     }, {
       "matchJsonata": "$exists(deprecationMessage)",
       "labels": ["deprecated", "important"]
+    }, {
+      "matchJsonata": "${exists(vulnerabilityFixVersion)",
+      "labels": ["security"]
     }
   ]
 }
