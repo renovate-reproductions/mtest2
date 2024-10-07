@@ -8,7 +8,7 @@
       "match": "deprecationMessage = '*'",
       "labels": ["deprecated"]
     }, {
-      "match": "branchName = '*-vulnerability'",
+      "match": "branchName = '/-vulnerability$/'",
       "labels": ["security"]
     }
   ]
