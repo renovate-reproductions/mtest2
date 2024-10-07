@@ -5,7 +5,7 @@
       "matchJsonata": "manager = 'dockerfile'",
       "additionalBranchPrefix": "docker-"
     }, {
-      "matchJsonata": "${deprecationMessage},
+      "matchJsonata": "$exists(deprecationMessage),
       "labels": ["deprecated", "important"]
     }
   ]
