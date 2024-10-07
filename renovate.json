@@ -16,8 +16,7 @@
       "addLabels": ["major:{{newMajor}}"]
     }, {
       "matchJsonata": "newMajor - currentMajor > 2",
-      "enabled": false,
-      "skipReason": "avoid-large-jumps"
+      "enabled": false
     }
   ]
 }
