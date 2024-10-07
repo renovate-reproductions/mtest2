@@ -2,14 +2,11 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
-      "matchQl": "manager = 'dockerfile'",
+      "matchJsonata": "manager = 'dockerfile'",
       "additionalBranchPrefix": "docker-"
     }, {
-      "matchQl": "deprecationMessage = '*'",
-      "labels": ["deprecated"]
-    }, {
-      "matchQl": "branchName = '/-vulnerability$/'",
-      "labels": ["security"]
+      "matchJsonata": "${deprecationMessage},
+      "labels": ["deprecated", "important"]
     }
   ]
 }
