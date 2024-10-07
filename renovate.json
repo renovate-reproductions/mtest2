@@ -15,7 +15,7 @@
       "matchJsonata": "$exists(newMajor)",
       "addLabels": ["major:{{newMajor}}"]
     }, {
-      "matchJsonata": "newMajor-currentMajor > 1",
+      "matchJsonata": "newMajor - currentMajor > 1",
       "addLabels": ["big-jump"]
     }
   ]
