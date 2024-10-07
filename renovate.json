@@ -10,6 +10,10 @@
     }, {
       "matchJsonata": "$exists(vulnerabilityFixVersion)",
       "labels": ["security"]
+    },
+    {
+      "matchJsonata": "$exists(newMajor)",
+      "labels": ["major:{{newMajor}}"]
     }
   ]
 }
